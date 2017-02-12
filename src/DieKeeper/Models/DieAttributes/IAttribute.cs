@@ -7,5 +7,9 @@ namespace DieKeeper.Models.DieAttributes
 {
     interface IAttribute
     {
+        int ID { get; set; }
+        string Name { get; set; }
+        int? Height { get; set; }
+        int? Weight { get; set; }
     }
 }
