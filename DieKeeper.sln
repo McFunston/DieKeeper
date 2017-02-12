@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9167A49C-A476-4790-ABDA-97B43119EE3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2D073D7-0A00-40C9-85EE-2A5C83B2E929}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DieKeeper", "src\DieKeeper\DieKeeper.xproj", "{4202886E-6A50-47BC-8A60-35588FA34993}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4202886E-6A50-47BC-8A60-35588FA34993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4202886E-6A50-47BC-8A60-35588FA34993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4202886E-6A50-47BC-8A60-35588FA34993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4202886E-6A50-47BC-8A60-35588FA34993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4202886E-6A50-47BC-8A60-35588FA34993} = {9167A49C-A476-4790-ABDA-97B43119EE3F}
+	EndGlobalSection
+EndGlobal
