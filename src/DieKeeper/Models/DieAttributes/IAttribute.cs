@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace DieKeeper.Models.DieAttributes
 {
-    interface IAttribute
+    public interface IAttribute
     {
         int ID { get; set; }
         string Name { get; set; }
         int? Height { get; set; }
-        int? Weight { get; set; }
+        int? Width { get; set; }
     }
 }

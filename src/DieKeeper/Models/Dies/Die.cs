@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DieKeeper.Models.DieAttributes;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -26,6 +27,6 @@ namespace DieKeeper.Models
         public Image FullDieImage { get; set; }
         public Image AnnotatedDieImage { get; set; }
         public Image SampleImage { get; set; }
-        //public virtual List<T> Attributes { get; set; }
+        public virtual List<IAttribute> Attributes { get; set; }
     }
 }
