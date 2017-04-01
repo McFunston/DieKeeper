@@ -22,10 +22,10 @@ namespace DieKeeper.Models
     public abstract class Die
     {
         public int ID { get; set; }
-        public int BaseWidth { get; set; }
-        public int BaseHeight { get; set; }
+        public int SheetWidth { get; set; }
+        public int SheetHeight { get; set; }
         public string Description { get; set; }
-        public DieType Type { get; set; }
+        public DieType SimpleType { get; set; }
         public Image FullDieImage { get; set; }
         public Image AnnotatedDieImage { get; set; }
         public Image SampleImage { get; set; }

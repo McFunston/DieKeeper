@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace DieKeeper.Models.DieAttributes
 {
+    /// <summary>
+    /// Physical attributes of a given die (gussets, glue flaps, scores, etc)
+    /// </summary>
     public class Attribute : IAttribute
     {
         public int ID { get; set; }
