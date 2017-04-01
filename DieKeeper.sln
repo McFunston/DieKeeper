@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9167A49C-A476-4790-ABDA-97B43119EE3F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2D073D7-0A00-40C9-85EE-2A5C83B2E929}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DieKeeper", "src\DieKeeper\DieKeeper.xproj", "{4202886E-6A50-47BC-8A60-35588FA34993}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DieKeeper", "src\DieKeeper\DieKeeper.csproj", "{4202886E-6A50-47BC-8A60-35588FA34993}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

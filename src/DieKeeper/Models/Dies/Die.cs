@@ -14,6 +14,8 @@ namespace DieKeeper.Models
         Perf,
         Box,
         Sleeve,
+        Emboss,
+        Deboss,
         Other
     }
 
